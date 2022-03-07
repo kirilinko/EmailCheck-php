@@ -263,11 +263,4 @@ class EmailCheck
 	} 
 }
 
-
-$tesclasse= new EmailCheck("franckivondaragon@gmail.com");
-
-var_dump($tesclasse->getMail());
-var_dump($tesclasse->Verification() );
-var_dump( $tesclasse->Is_tempMail() );
- 
 ?>
