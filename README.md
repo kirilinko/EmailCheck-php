@@ -4,7 +4,7 @@ php class with a set of methods to check the authenticity of an email address wh
 ## :pushpin: How do you use it?
 It is very easy to use the php class. You just have to import the class in your work file with the php functions **include()** or **require()** . Then you have to create an object or an instance of the class by passing it a mandatory argument is an email address : 
 ```php
-$Myail= new EmailCheck('Mylmail@mailbox.com')
+$Mymail= new EmailCheck('Mymail@mailbox.com')
 ```
 ### :books: Documentation
 The EmailCheck class provides you with a set of methods that each do well defined actions. To begin with, we have :
