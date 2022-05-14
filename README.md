@@ -27,7 +27,7 @@ The EmailCheck class provides you with a set of methods that each do well define
       $data=array(
               'Statut'=>false,
               'EN'=> 'The format of the email address is incorrect.',
-              'FR'=> 'Le format de l'adresse mail est incorrect.',
+              'FR'=> 'Le format de l\'adresse mail est incorrect.',
               'ES'=> 'El formato de la dirección de correo electrónico es incorrecto.',
               'RU'=> 'Формат адреса электронной почты неверен.',
               'CH'=> '电子邮件地址的格式不正确。电子邮件地址的格式不正确。',
