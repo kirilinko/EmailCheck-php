@@ -43,8 +43,8 @@ The EmailCheck class provides you with a set of methods that each do well define
     ```
     > when isset=true here is the result of the table you will have :
      ```php
-            'Statut'=>true,
-            'Isset'=>false,
+    'Statut'=>true,
+    'Isset'=>false,
     ```
  * Is_tempMail()
    >This method checks if the email is a temporary email. If it is, it returns an array containing the mailbox information: 
