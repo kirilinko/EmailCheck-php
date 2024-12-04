@@ -12,9 +12,9 @@ The EmailCheck class provides you with a set of methods that each do well define
      > Which returns the set of messengers whose verification is taken into account by the php class. You can also customize the list of messaging by respecting the predefined architrchture :
 
     ```php 
-	       Title' => 'Yahoo! Mail' ,
-	       'Name' => 'yahoo.' ,
-	       'Link' => 'https://www.yahoo.com'
+       Title' => 'Yahoo! Mail' ,
+       'Name' => 'yahoo.' ,
+       'Link' => 'https://www.yahoo.com'
   ```
    >* Title => For the name of the mail
    >* Name => For the domain name with the "." without the extension
@@ -43,14 +43,14 @@ The EmailCheck class provides you with a set of methods that each do well define
     ```
     > when isset=true here is the result of the table you will have :
      ```php
-    'Statut'=>true,
-    'Isset'=>false,
+	    'Statut'=>true,
+	    'Isset'=>false,
     ```
  * Is_tempMail()
    >This method checks if the email is a temporary email. If it is, it returns an array containing the mailbox information: 
     ```php
-               'Title' =>'Tempr Email' ,
-	       'Name' =>'@disposable-' ,
-	       'Link' =>'https://tempr.email
+	'Title' =>'Tempr Email' ,
+	'Name' =>'@disposable-' ,
+	'Link' =>'https://tempr.email
     ```
     > Otherwise, it returns **NULL**
