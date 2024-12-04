@@ -35,11 +35,11 @@ The EmailCheck class provides you with a set of methods that each do well define
    ```
     >In case the mail format is correct, status=true. On the other hand, if isset is equal to true it means that the mail is in the Data array and you can have access   thanks to the data location in the returned array. To demonstrate in a very simple way, when isset=true here is the result of the table you will have : 
      ```php
-            'Title' =>'Yandex Mail',
-	    'Name' =>'yandex.',
-	    'Link' =>'https://passport.yandex.com/auth'
-            'Statut'=>true,
-            'Isset'=>true,
+     'Title' =>'Yandex Mail',
+     'Name' =>'yandex.',
+     'Link' =>'https://passport.yandex.com/auth'
+     'Statut'=>true,
+     'Isset'=>true,
     ```
     > when isset=true here is the result of the table you will have :
      ```php
